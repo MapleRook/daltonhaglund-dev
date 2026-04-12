@@ -1,0 +1,12 @@
+# Draft README samples — kept local, copied into project repos when ready
+samples/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+.vscode/
+.idea/
+*.swp

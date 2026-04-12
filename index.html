@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dalton Haglund — Engineer</title>
+<meta name="description" content="Self-taught engineer building Android apps, reverse-engineering pipelines, and AI tooling. Upper Peninsula, Michigan.">
+<meta property="og:title" content="Dalton Haglund — Engineer">
+<meta property="og:description" content="Self-taught engineer. Android apps, reverse-engineering pipelines, AI tooling.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://daltonhaglund.dev">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='50' font-size='52' font-family='system-ui' font-weight='700' fill='%237dd3fc'>D</text></svg>">
+<style>
+  :root {
+    --bg: #0d0f12;
+    --fg: #e8ebef;
+    --fg-dim: #8a929c;
+    --accent: #7dd3fc;
+    --border: #242932;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
+    font-size: 0.9rem;
+  }
+  nav .brand { font-weight: 700; letter-spacing: 0.05em; }
+  nav ul { display: flex; gap: 2rem; list-style: none; }
+  nav a { color: var(--fg-dim); text-decoration: none; transition: color 0.15s; }
+  nav a:hover { color: var(--fg); }
+  .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.15rem;
+    color: var(--fg-dim);
+    max-width: 55ch;
+  }
+  .hero .accent { color: var(--accent); }
+  section { margin-top: 5rem; }
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--fg-dim);
+    margin-bottom: 2rem;
+  }
+  .project {
+    padding: 1.75rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .project:last-child { border-bottom: none; }
+  .project h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  .project .meta {
+    font-size: 0.8rem;
+    color: var(--fg-dim);
+    margin-bottom: 0.75rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .project p { color: var(--fg-dim); font-size: 0.95rem; }
+  .project a.link {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+  }
+  .project a.link:hover { text-decoration: underline; }
+  .about p { color: var(--fg-dim); max-width: 60ch; margin-bottom: 1rem; }
+  .contact ul { list-style: none; }
+  .contact li { margin-bottom: 0.5rem; color: var(--fg-dim); }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 6rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--fg-dim);
+  }
+  @media (max-width: 600px) {
+    .container { padding: 2.5rem 1.25rem; }
+    nav { margin-bottom: 3rem; }
+    nav ul { gap: 1.25rem; }
+    .hero h1 { font-size: 2rem; }
+    section { margin-top: 3.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <span class="brand">DH</span>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Dalton Haglund</h1>
+    <p>Self-taught engineer. I ship things alone. Android apps, reverse-engineering pipelines, AI tooling. <span class="accent">Open to remote work.</span></p>
+  </section>
+
+  <section id="work">
+    <h2>Selected Work</h2>
+
+    <div class="project">
+      <h3>TaskToss</h3>
+      <div class="meta">Solo · Kotlin · Jetpack Compose · 2025–present</div>
+      <p>Native Android app I built because no ADHD app on my phone actually worked for me. Claude Haiku parses brain-dumps into scheduled tasks. Three-tier notifications escalate from nudge to nag to nuclear. Nuclear is a full-screen SYSTEM_ALERT_WINDOW overlay that blocks home and the app switcher until you mark the task done or reschedule with a specific datetime. No snooze button. That's the point.</p>
+      <a href="#" class="link">GitHub →</a>
+    </div>
+
+    <div class="project">
+      <h3>contractordraft.com</h3>
+      <div class="meta">Solo · Next.js · Supabase · Stripe · 2025–present</div>
+      <p>Live at <a href="https://contractordraft.com" style="color: var(--accent);">contractordraft.com</a>. Lightweight drafting tool for contractors. Started on Anthropic's API, later migrated to OpenAI. The tool itself didn't need much to pivot.</p>
+      <a href="https://contractordraft.com" class="link">Visit →</a>
+    </div>
+
+    <div class="project">
+      <h3>claude-palace</h3>
+      <div class="meta">Solo · Python · ChromaDB · SQLite · MCP · 2025–present</div>
+      <p>Cross-session memory for Claude Code. Reimplementation of concepts from <a href="https://github.com/MemPalace/mempalace" style="color: var(--accent);">MemPalace</a> in Python, trimmed for a single-developer setup. ChromaDB semantic search, SQLite knowledge graph with temporal validity, a Wing/Hall/Room/Drawer hierarchy, and a set of MCP tools exposed to Claude Code. Five custodian agents (Auditor, Verifier, Structurer, Expander, Linker) run on a schedule to audit, verify, fill gaps, and link memories across projects. Holds over a thousand memories across every project I work on.</p>
+      <a href="https://github.com/MapleRook/claude-palace" class="link">GitHub →</a>
+    </div>
+
+    <div class="project">
+      <h3>Villain Monologue (Mihaly)</h3>
+      <div class="meta">Solo · Python · Applio RVC · parselmouth · scipy.signal · 2025</div>
+      <p>Voice conversion pipeline to impersonate a video game character. I perform the monologue, Applio's RVC fork transforms my voice into the target, and scipy.signal builds the atmosphere. parselmouth analyzes the target's pitch and jitter from game-extracted audio. Trained on 137 English clips, 300 epochs, crepe f0, contentvec embedder. Whole thing runs locally.</p>
+      <a href="#" class="link">Writeup →</a>
+    </div>
+
+    <div class="project">
+      <h3>AC7 Decoded + CodeHooks</h3>
+      <div class="meta">Solo · Python · UE4 · pymem · Capstone · 2025–present</div>
+      <p>Two-repo reverse-engineering pipeline for Ace Combat 7. Decoded is the static half: 203,915 function boundaries mapped to 3,694 inferred classes, 1,020 with full layouts. CodeHooks is the runtime half: pymem trampolines into the live process, 16 KB ring buffer to a Python harness, 18 hypotheses graded by a 5-rule validator against real memory. One guesses, the other grades.</p>
+      <a href="#" class="link">Writeup →</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I'm a self-taught engineer in Michigan's Upper Peninsula. My background is in IT operations (hospital OS upgrades, helpdesk, systems work), but my focus has shifted into software development. Mostly Python, some Kotlin, a lot of Claude Code.</p>
+    <p>I'm open to remote roles where I can keep building real systems end-to-end. Small enough that individual engineers still own meaningful parts, large enough that the work actually ships to users who need it.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email — <a href="mailto:dalton@daltonhaglund.dev">dalton@daltonhaglund.dev</a></li>
+      <li>GitHub — <a href="https://github.com/MapleRook">github.com/MapleRook</a></li>
+      <li>LinkedIn — <a href="https://www.linkedin.com/in/dalton-haglund-6a2581216/">linkedin.com/in/dalton-haglund</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2026 Dalton Haglund
+  </footer>
+</div>
+</body>
+</html>
