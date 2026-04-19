@@ -1,0 +1,23 @@
+# Dalton Haglund
+
+> Self-taught software engineer in Michigan's Upper Peninsula. Ships end-to-end systems solo: Android apps, reverse-engineering pipelines, AI tooling. Open to remote work.
+
+Based in Michigan's Upper Peninsula. Two-plus years 1099 at a regional MSP (DTech) doing IT operations, internal tooling, and applied AI work. Built and shipped Small Towns AI, a RAG tool for a county clerk's office now running in production at Alger County, Michigan. Self-taught, no CS degree.
+
+Primary languages: Python, Go, Kotlin, TypeScript. Heavy daily user of Claude Code and agentic development workflows. Comfortable across backend, infrastructure, and mobile. Contact: dalton@daltonhaglund.dev.
+
+## Projects
+
+- [TaskToss](https://github.com/MapleRook/TaskToss-releases): Native Android app for ADHD task capture. Claude Haiku parses brain-dumps into scheduled tasks. Three-tier notifications escalate from nudge to nag to a full-screen SYSTEM_ALERT_WINDOW overlay that blocks home and the app switcher. Kotlin, Jetpack Compose.
+- [contractordraft.com](https://contractordraft.com): Live drafting tool for contractors. Next.js, Supabase, Stripe. Started on Anthropic API, migrated to OpenAI.
+- [claude-palace](https://github.com/MapleRook/claude-palace): Cross-session memory system for Claude Code. Reimplementation of MemPalace concepts in Python, trimmed for single-developer use. ChromaDB semantic search, SQLite knowledge graph with temporal validity, a Wing/Hall/Room/Drawer hierarchy, and MCP tools exposed to Claude Code. Five custodian agents (Auditor, Verifier, Structurer, Expander, Linker) run on schedule to audit, verify, fill gaps, and link memories across projects. Holds over a thousand memories.
+- [rook](https://github.com/MapleRook/rook): Production variant of the palace pattern, built to sit inside a larger codebase with multiple contributors. Go backend, Postgres for persistence, Redis for hot caches. Ingests SCIP indexes, exposes GraphQL and MCP, and generates Claude-grounded symbol walkthroughs where every claim links to a specific file and line. Seven phases shipped, from ingest through cross-repo mode.
+- [Villain Monologue (Mihaly)](https://github.com/MapleRook/mihaly-writeup): Voice conversion pipeline. Applio RVC fork transforms a recorded monologue into a target video game character's voice. parselmouth analyzes pitch and jitter, scipy.signal builds atmosphere. 137 English clips, 300 epochs, crepe f0, contentvec embedder. Runs locally.
+- [AC7 Decoded + CodeHooks](https://github.com/MapleRook/ac7-writeup): Two-repo reverse-engineering pipeline for Ace Combat 7. Decoded is static: 203,915 function boundaries mapped to 3,694 inferred classes, 1,020 with full layouts. CodeHooks is runtime: pymem trampolines into the live process, 16 KB ring buffer to a Python harness, 18 hypotheses graded by a 5-rule validator against real memory.
+
+## Links
+
+- [Portfolio site](https://daltonhaglund.dev): daltonhaglund.dev
+- [GitHub](https://github.com/MapleRook): github.com/MapleRook
+- [LinkedIn](https://www.linkedin.com/in/dalton-haglund-6a2581216/): linkedin.com/in/dalton-haglund
+- [Email](mailto:dalton@daltonhaglund.dev): dalton@daltonhaglund.dev
